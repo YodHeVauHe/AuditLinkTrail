@@ -5,3 +5,5 @@ graphify-out/
 
 # superpowers worktrees
 .worktrees/
+.vercel
+.env*

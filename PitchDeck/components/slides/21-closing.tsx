@@ -36,8 +36,7 @@ export default function ClosingSlide() {
 
         <Reveal delay={360}>
           <h2 className="mt-10 font-display text-[clamp(2.4rem,8vw,6.5rem)] leading-[0.95] tracking-tight">
-            <span className="text-cream">AuditLink</span>
-            <span className="text-gold-metal italic">Trail</span>
+            <span className="text-cream">ALT</span>
           </h2>
         </Reveal>
 

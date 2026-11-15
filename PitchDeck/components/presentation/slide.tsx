@@ -35,7 +35,7 @@ export function Slide({
           className
         )}
       >
-        <div className="mx-auto flex min-h-full w-full max-w-7xl flex-col justify-center px-6 pt-16 pb-24 md:px-14 md:pt-20 md:pb-24 lg:px-20">
+        <div className="mx-auto flex min-h-full w-full max-w-7xl flex-col justify-center-safe px-6 pt-16 pb-24 md:px-14 md:pt-20 md:pb-24 lg:px-20">
           {children}
         </div>
       </div>

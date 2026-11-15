@@ -1,6 +1,7 @@
 "use client";
 
 import { Slide } from "@/components/presentation/slide";
+import { SectionLabel } from "@/components/presentation/section-label";
 import { Reveal } from "@/components/presentation/reveal";
 import { GoldDivider } from "@/components/presentation/gold-divider";
 import { NetworkVisualization } from "@/components/visualizations/network-visualization";
@@ -19,9 +20,14 @@ export default function ClosingSlide() {
           />
         </>
       }
-      className="flex items-center justify-center"
+      className=""
     >
-      <div className="w-full text-center">
+      <div className="w-full">
+        <Reveal>
+          <SectionLabel index="21" title="Closing" />
+        </Reveal>
+
+        <div className="mt-10 text-center">
         <Reveal>
           <p className="mx-auto max-w-3xl font-display text-[clamp(1.7rem,4.2vw,3.5rem)] leading-[1.12] text-cream">
             Audit evidence should not depend
@@ -65,6 +71,7 @@ export default function ClosingSlide() {
             AuditLinkTrail — Seed Investment Presentation · 2026
           </p>
         </Reveal>
+        </div>
       </div>
     </Slide>
   );

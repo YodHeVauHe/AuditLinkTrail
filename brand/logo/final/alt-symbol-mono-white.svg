@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <title>AuditLinkTrail mark — one-colour white (reversed)</title>
+  <g stroke="#FFFFFF" stroke-width="26" stroke-linecap="round" fill="none">
+    <path d="M54 206 102 100"/>
+    <path d="M202 206 154 100"/>
+    <path d="M88 160h80"/>
+  </g>
+  <path d="M128 22 162 56 128 90 94 56Z" fill="#FFFFFF"/>
+</svg>

@@ -1,0 +1,57 @@
+{
+  "brand": "AuditLinkTrail",
+  "tagline": "A tamper-evident trust layer for institutional auditing",
+  "brief": "Brand mark for AuditLinkTrail (ALT), a tamper-evident trust layer for institutional auditing. It should feel institutional, official and precise, carried by the existing gold-on-carbon identity. Replaces the previous interlocking-links icon.",
+  "adjectives": [
+    "institutional",
+    "official",
+    "precise",
+    "tamper-evident"
+  ],
+  "criteria": "Success: reads as official without padlock/shield/chain clichés, survives 16 px in docs and terminal, one-colour safe for print, coherent with the gold-on-carbon deck.",
+  "industry": "software",
+  "mockups": ["website", "terminal", "readme", "business-card", "signage", "app-icon"],
+  "nav": ["Platform", "Integrity", "Docs"],
+  "brand_color": "#C9A45C",
+  "greyscale": true,
+  "designer": "logo-design skill",
+  "round": 2,
+  "concepts": [
+    {
+      "name": "Assay Seal",
+      "symbol": "concept-a-seal-v2.svg",
+      "idea": "A notched official seal roundel whose negative space forms the A — audit as assay, the gold-standard mark of authenticity.",
+      "rationale": [
+        "The most conventionally institutional of the three",
+        "No existing marks own the seal-hallmark intersection in the category",
+        "Slightly busy at 16 px"
+      ]
+    },
+    {
+      "name": "Waypoint A",
+      "symbol": "final/alt-symbol.svg",
+      "lockup": "final/alt-lockup-horizontal.svg",
+      "idea": "An A drawn as an ascending trail with a diamond waypoint at the apex — every path leads up to the record.",
+      "rationale": [
+        "Carries trail, link and audit in one mark",
+        "Cleanest at 16 px — favicon, terminal, GitHub",
+        "The diamond seeds the icon system"
+      ]
+    },
+    {
+      "name": "Ledger A",
+      "symbol": "concept-c-ledger-v2.svg",
+      "idea": "An A ruled into sealed horizontal courses between slanted legs — institutional masonry, every line a ledger entry.",
+      "rationale": [
+        "Very institutional, prints beautifully in one colour",
+        "Some read pyramid first; the ledger story is the quietest"
+      ]
+    }
+  ],
+  "recommendation": "Waypoint A — strongest intersection of the name, cleanest small, and the gold diamond on carbon is unmistakably ALT. Client picked B (Waypoint A).",
+  "next_steps": [
+    "Colour and lockup refinement (done)",
+    "Favicon, app-icon and web-icon set (done)",
+    "Guidelines and handover"
+  ]
+}

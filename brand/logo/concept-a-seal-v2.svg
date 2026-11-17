@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <title>AuditLinkTrail — Assay Seal (concept A v2)</title>
+  <!-- v2: leg inner edges snapped to exact 60° -->
+  <circle cx="128" cy="128" r="110" fill="none" stroke="#000" stroke-width="10" stroke-dasharray="8 7.02"/>
+  <circle cx="128" cy="128" r="92" fill="none" stroke="#000" stroke-width="6"/>
+  <path fill="#000" fill-rule="evenodd" d="M128 52a76 76 0 1 0 0.01 0Z M128 74 174 186 150 186 128 148 106 186 82 186Z M128 100 144 132 112 132Z"/>
+</svg>

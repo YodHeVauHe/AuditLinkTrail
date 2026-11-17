@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- Waypoint A: ascending trail legs, diamond waypoint at the apex, 3-link custody crossbar -->
+  <path d="M66 204 104 98" stroke="#000" stroke-width="26" stroke-linecap="round" fill="none"/>
+  <path d="M190 204 152 98" stroke="#000" stroke-width="26" stroke-linecap="round" fill="none"/>
+  <path d="M128 36 158 66 128 96 98 66Z" fill="#000"/>
+  <path d="M96 156h15M121 156h14M145 156h15" stroke="#000" stroke-width="22" stroke-linecap="round" fill="none"/>
+</svg>

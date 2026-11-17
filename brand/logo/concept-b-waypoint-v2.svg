@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <title>AuditLinkTrail — Waypoint A (concept B v2)</title>
+  <!-- v2: solid crossbar (3 links merged at small size), larger footprint -->
+  <path d="M54 206 102 100" stroke="#000" stroke-width="26" stroke-linecap="round" fill="none"/>
+  <path d="M202 206 154 100" stroke="#000" stroke-width="26" stroke-linecap="round" fill="none"/>
+  <path d="M128 26 162 60 128 94 94 60Z" fill="#000"/>
+  <path d="M88 160h80" stroke="#000" stroke-width="24" stroke-linecap="round" fill="none"/>
+</svg>

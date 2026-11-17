@@ -1,5 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="12" fill="#08080a"/>
-  <rect x="10" y="24" width="24" height="16" rx="8" fill="none" stroke="#c9a45c" stroke-width="3.5"/>
-  <rect x="30" y="24" width="24" height="16" rx="8" fill="none" stroke="#e9d096" stroke-width="3.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <title>AuditLinkTrail app icon</title>
+  <rect width="256" height="256" rx="57" fill="#08080A"/>
+  <g transform="translate(48.6,55.3) scale(0.62)">
+    <g stroke="#C9A45C" stroke-width="26" stroke-linecap="round" fill="none">
+      <path d="M54 206 102 100"/>
+      <path d="M202 206 154 100"/>
+      <path d="M88 160h80"/>
+    </g>
+    <path d="M128 22 162 56 128 90 94 56Z" fill="#C9A45C"/>
+  </g>
 </svg>

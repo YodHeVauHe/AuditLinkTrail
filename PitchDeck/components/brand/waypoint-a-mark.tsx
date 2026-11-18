@@ -1,7 +1,7 @@
 import { AscentMark, type AscentMarkProps } from "./ascent-mark";
 
 /**
- * Replaced with The Ascent (brand/logo/round2/d3-ascent.svg)
+ * Replaced with The Ascent (brand/logo/alt.svg)
  * Retained as an alias for backwards compatibility.
  */
 export function WaypointAMark(props: AscentMarkProps) {

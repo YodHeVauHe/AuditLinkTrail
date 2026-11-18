@@ -1,7 +1,7 @@
 /**
  * The Ascent — AuditLinkTrail brand mark.
  *
- * Source: brand/logo/round2/d3-ascent.svg
+ * Source: brand/logo/alt.svg
  * Geometry: A staircase of sealed masonry courses climbing the trail;
  * the newest entry sits on top in luminous gold.
  */

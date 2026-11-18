@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
-  <title>AuditLinkTrail mark — The Ascent (dark surfaces: deep gold + bright gold)</title>
-  <g transform="translate(4, 2)">
-    <path fill="#8F6E31" d="M44 204v-24h32v-44h32V92h32V72h32V48h32v24h-32v20h-32v44h-32v44h-32v24Z"/>
-    <path fill="#E9D096" d="M140 48h64v24h-64Z"/>
-  </g>
-</svg>

@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
-  <title>AuditLinkTrail — Ledger A (concept C v2)</title>
-  <!-- v2: slanted legs so the silhouette reads as an A / stepped pyramid -->
-  <path d="M54 196 118 60h24l-64 136Z" fill="#000"/>
-  <path d="M202 196 138 60h-24l64 136Z" fill="#000"/>
-  <path d="M104 60h48v24h-48Z" fill="#000"/>
-  <path d="M106 124h44v24h-44Z" fill="#000"/>
-  <path d="M54 172h148v24H54Z" fill="#000"/>
-</svg>

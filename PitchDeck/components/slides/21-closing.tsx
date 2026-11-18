@@ -5,6 +5,7 @@ import { SectionLabel } from "@/components/presentation/section-label";
 import { Reveal } from "@/components/presentation/reveal";
 import { GoldDivider } from "@/components/presentation/gold-divider";
 import { NetworkVisualization } from "@/components/visualizations/network-visualization";
+import { AscentMark } from "@/components/brand/ascent-mark";
 
 export default function ClosingSlide() {
   return (
@@ -40,8 +41,12 @@ export default function ClosingSlide() {
           <GoldDivider className="mx-auto mt-10 max-w-xs" />
         </Reveal>
 
+        <Reveal delay={300}>
+          <AscentMark className="mx-auto size-12 text-gold md:size-16" />
+        </Reveal>
+
         <Reveal delay={360}>
-          <h2 className="mt-10 font-display text-[clamp(2.4rem,8vw,6.5rem)] leading-[0.95] tracking-tight">
+          <h2 className="mt-6 font-display text-[clamp(2.4rem,8vw,6.5rem)] leading-[0.95] tracking-tight">
             <span className="text-cream">ALT</span>
           </h2>
         </Reveal>

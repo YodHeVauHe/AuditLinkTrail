@@ -1,18 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 696 256">
-  <title>AuditLinkTrail — horizontal lockup (light backgrounds: ink + gold waypoint)</title>
-  <g transform="translate(5,25.6) scale(0.85)">
-    <g stroke="#14110C" stroke-width="26" stroke-linecap="round" fill="none">
-      <path d="M54 206 102 100"/>
-      <path d="M202 206 154 100"/>
-      <path d="M88 160h80"/>
-    </g>
-    <path d="M128 22 162 56 128 90 94 56Z" fill="#C9A45C"/>
+  <title>AuditLinkTrail — horizontal lockup (light: ink + brand gold rule)</title>
+  <g transform="translate(-2.4,12.8) scale(0.9)">
+    <path d="M85 123.7h125v25.9H85Z" fill="#C9A45C"/>
+    <path d="M47.1 201.4 101.5 54.6h20.4L67.5 201.4Z" fill="#14110C"/>
+    <path d="M172.9 201.4 118.5 54.6h-20.4l54.4 146.8Z" fill="#14110C"/>
+    <path d="M89.6 54.6h40.8v25.9H89.6Z" fill="#14110C"/>
+    <path d="M47.1 175.5h125.8v25.9H47.1Z" fill="#14110C"/>
   </g>
   <g stroke="#14110C" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none">
-    <path d="M252 186 307 69 362 186"/>
-    <path d="M284 145h46"/>
-    <path d="M412 70v116h72"/>
-    <path d="M534 70h108"/>
-    <path d="M588 70v116"/>
+    <path d="M243 186 298 69 353 186"/>
+    <path d="M275 145h46"/>
+    <path d="M403 70v116h72"/>
+    <path d="M525 70h108"/>
+    <path d="M579 70v116"/>
   </g>
 </svg>

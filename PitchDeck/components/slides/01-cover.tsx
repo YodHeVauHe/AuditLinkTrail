@@ -3,6 +3,7 @@
 import { Slide } from "@/components/presentation/slide";
 import { Reveal } from "@/components/presentation/reveal";
 import { NetworkVisualization } from "@/components/visualizations/network-visualization";
+import { AscentMark } from "@/components/brand/ascent-mark";
 
 export default function CoverSlide() {
   return (
@@ -30,8 +31,12 @@ export default function CoverSlide() {
           </p>
         </Reveal>
 
+        <Reveal delay={100}>
+          <AscentMark className="mx-auto size-14 text-gold md:size-20" />
+        </Reveal>
+
         <Reveal delay={150}>
-          <h1 className="mt-8 font-display text-[clamp(3rem,11vw,8.75rem)] leading-[0.95] tracking-tight">
+          <h1 className="mt-6 font-display text-[clamp(3rem,11vw,8.75rem)] leading-[0.95] tracking-tight">
             <span className="text-cream">ALT</span>
           </h1>
         </Reveal>

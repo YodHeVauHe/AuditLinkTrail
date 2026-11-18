@@ -14,7 +14,7 @@ import { Slide } from "@/components/presentation/slide";
 import { SectionLabel } from "@/components/presentation/section-label";
 import { Reveal } from "@/components/presentation/reveal";
 import { Badge } from "@/components/ui/badge";
-import { Link2 } from "lucide-react";
+import { AscentMark } from "@/components/brand/ascent-mark";
 
 const INSTITUTIONS = [
   { icon: Landmark, label: "Government institutions" },
@@ -73,7 +73,7 @@ export default function UgandaSlide() {
           <div className="flex items-center justify-center gap-3 lg:flex-col">
             <ArrowRight aria-hidden className="size-4 text-gold/60 lg:rotate-90" />
             <div className="corner-frame flex items-center gap-2.5 rounded-md border border-gold-line bg-gradient-to-b from-gold/[0.1] to-transparent px-6 py-4">
-              <Link2 className="size-4 text-gold-bright" />
+              <AscentMark className="size-4.5 shrink-0 text-gold-bright" />
               <span className="font-mono text-[11px] tracking-[0.26em] text-gold-bright uppercase">
                 AuditLinkTrail
               </span>

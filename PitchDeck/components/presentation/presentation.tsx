@@ -13,6 +13,7 @@ import { SlideContext } from "./slide-context";
 import { ProgressIndicator } from "./progress-indicator";
 import { SlideNavigation } from "./slide-navigation";
 import { KeyboardHelp } from "./keyboard-help";
+import { AscentMark } from "@/components/brand/ascent-mark";
 
 export type SlideMeta = {
   /** Anchor id, e.g. "07-integrity-demo" */
@@ -322,7 +323,7 @@ export function Presentation({ slides }: { slides: SlideMeta[] }) {
         )}
       >
         <div className="flex items-center gap-2.5 font-mono text-[10px] tracking-[0.3em] uppercase">
-          <span aria-hidden className="size-1.5 rotate-45 bg-gold" />
+          <AscentMark className="size-4 shrink-0 text-gold" />
           <span className="text-cream/80">AuditLinkTrail</span>
           <span className="text-smoke">/</span>
           <span className="text-smoke">Seed Pitch</span>

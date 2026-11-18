@@ -23,6 +23,9 @@ export const metadata: Metadata = {
   title: "AuditLinkTrail — Seed Investment Pitch",
   description:
     "AuditLinkTrail is a permissioned blockchain-based trust layer that records cryptographic proofs of important institutional events, allowing auditors to independently verify that evidence has not been altered after it was committed.",
+  icons: {
+    icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
+  },
 };
 
 export const viewport: Viewport = {

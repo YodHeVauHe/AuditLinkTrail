@@ -1,9 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
-  <title>AuditLinkTrail mark — Waypoint A (light backgrounds: ink + gold waypoint)</title>
-  <g stroke="#14110C" stroke-width="26" stroke-linecap="round" fill="none">
-    <path d="M54 206 102 100"/>
-    <path d="M202 206 154 100"/>
-    <path d="M88 160h80"/>
+  <title>AuditLinkTrail mark — The Ascent (light surfaces: ink + brand gold)</title>
+  <g transform="translate(4, 2)">
+    <path fill="#14110C" d="M44 204v-24h32v-44h32V92h32V72h32V48h32v24h-32v20h-32v44h-32v44h-32v24Z"/>
+    <path fill="#C9A45C" d="M140 48h64v24h-64Z"/>
   </g>
-  <path d="M128 22 162 56 128 90 94 56Z" fill="#C9A45C"/>
 </svg>

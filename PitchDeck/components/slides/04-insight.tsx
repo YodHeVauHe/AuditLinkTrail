@@ -1,9 +1,10 @@
 "use client";
 
-import { ArrowRight, Database, Landmark, Link2 } from "lucide-react";
+import { ArrowRight, Database, Landmark } from "lucide-react";
 import { Slide } from "@/components/presentation/slide";
 import { SectionLabel } from "@/components/presentation/section-label";
 import { Reveal } from "@/components/presentation/reveal";
+import { AscentMark } from "@/components/brand/ascent-mark";
 
 export default function InsightSlide() {
   return (
@@ -52,7 +53,7 @@ export default function InsightSlide() {
 
         <Reveal delay={460} className="w-full max-w-xs lg:w-auto lg:flex-1">
           <div className="corner-frame rounded-lg border border-gold-line bg-gradient-to-b from-gold/[0.09] to-transparent p-5 text-center lg:px-8 lg:py-7">
-            <Link2 className="mx-auto size-5 text-gold-bright" strokeWidth={1.5} />
+            <AscentMark className="mx-auto size-5.5 text-gold-bright" />
             <div className="mt-3 font-mono text-[11px] tracking-[0.22em] text-gold-bright uppercase">
               AuditLinkTrail
             </div>

@@ -1,0 +1,72 @@
+name: Workflow discovery
+description: Define an institutional workflow before implementation.
+title: "[Discovery]: "
+labels:
+  - phase:discovery
+body:
+  - type: markdown
+    attributes:
+      value: Use synthetic examples only. Do not include confidential or personal records.
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Workflow domain
+      options:
+        - Procurement
+        - Financial reporting
+        - Compliance submissions
+        - Contracts
+        - Licensing
+        - Tax processes
+        - NGO funding
+        - Public expenditure
+    validations:
+      required: true
+  - type: textarea
+    id: actors
+    attributes:
+      label: Actors and authority
+      description: Who submits, reviews, approves, amends, and closes records? Who can delegate authority?
+    validations:
+      required: true
+  - type: textarea
+    id: lifecycle
+    attributes:
+      label: Lifecycle
+      description: List states, transitions, correction, cancellation, appeal, and adverse cases.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and data sensitivity
+      description: Identify source systems, evidence types, access boundaries, retention, and deletion questions.
+    validations:
+      required: true
+  - type: textarea
+    id: controls
+    attributes:
+      label: Controls and findings
+      description: Which rules apply, and what should a reviewer see when a rule fails?
+    validations:
+      required: true
+  - type: textarea
+    id: integrations
+    attributes:
+      label: Integrations and operating constraints
+      description: Identify systems, retries, duplicates, ordering, and source-of-truth questions.
+    validations:
+      required: true
+  - type: textarea
+    id: variation
+    attributes:
+      label: Jurisdiction and institution variation
+      description: Record known differences and questions requiring validation.
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance examples
+      description: Provide at least three synthetic examples, including an exception or adverse case.
+      placeholder: "- [ ] ..."
+    validations:
+      required: true

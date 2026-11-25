@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: View existing issues
+    url: https://github.com/YodHeVauHe/AuditLinkTrail/issues
+    about: Check for an existing request before opening a new issue.

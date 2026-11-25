@@ -1,0 +1,71 @@
+name: Product or platform change
+description: Propose a scoped ALT capability or user-facing change.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: Keep the request focused. Do not include confidential or personal records.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Who encounters this problem, and what happens today?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Intended outcome
+      description: What should become possible or improve?
+    validations:
+      required: true
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Workflow or shared capability
+      options:
+        - Shared platform
+        - Procurement
+        - Financial reporting
+        - Compliance submissions
+        - Contracts
+        - Licensing
+        - Tax processes
+        - NGO funding
+        - Public expenditure
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: In scope and out of scope
+      description: State the behavior this issue covers and what should be a separate issue.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: List observable conditions a reviewer can confirm.
+      placeholder: "- [ ] ..."
+    validations:
+      required: true
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies and open decisions
+      description: Link prerequisite issues and identify decisions that must be resolved.
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification
+      description: Describe how the result should be checked.
+    validations:
+      required: true
+  - type: textarea
+    id: docs
+    attributes:
+      label: Documentation or compatibility impact
+      description: Note any affected docs, APIs, stored data, or integrations.

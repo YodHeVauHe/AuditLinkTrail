@@ -6,6 +6,8 @@ AuditLinkTrail is shared institutional audit infrastructure for creating and ind
 
 ## Project documents
 
+- [Product overview](docs/product/overview.md)
+- [Roadmap](docs/roadmap.md)
 - [Approved product and development design](docs/superpowers/specs/2026-11-25-auditlinktrail-development-design.md)
 - [GitHub Issues](https://github.com/YodHeVauHe/AuditLinkTrail/issues)
 - [Contributing](CONTRIBUTING.md)

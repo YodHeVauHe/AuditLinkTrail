@@ -9,15 +9,15 @@ const PHASES = [
   {
     icon: CircleDot,
     tag: "Now",
-    title: "Procurement MVP",
-    note: "committed events, chained blocks, verification, basic anomaly detection",
+    title: "Shared platform foundation",
+    note: "validate shared capabilities and shape multiple workflow slices",
     active: true,
   },
   {
     icon: Map,
     tag: "Next",
     title: "Institutional pilot",
-    note: "one real procurement workflow running under agreed governance",
+    note: "multiple validated workflows piloted within agreed boundaries",
     active: false,
   },
   {
@@ -38,8 +38,8 @@ export default function RoadmapSlide() {
 
       <Reveal delay={100}>
         <h2 className="mt-7 font-display text-[clamp(2rem,4.5vw,3.75rem)] leading-[1.05] text-cream">
-          One workflow. One pilot.{" "}
-          <span className="text-gold-metal italic">Then the network.</span>
+          Shared capabilities. Multiple workflows.{" "}
+          <span className="text-gold-metal italic">Then controlled expansion.</span>
         </h2>
       </Reveal>
 
@@ -100,7 +100,7 @@ export default function RoadmapSlide() {
         <div className="mt-12 flex items-center justify-center gap-4">
           <span aria-hidden className="gold-hairline w-12 md:w-20" />
           <p className="max-w-2xl text-center font-display text-base leading-snug text-fog italic md:text-xl">
-            From one verifiable procurement trail to{" "}
+            From shared workflow foundations to{" "}
             <span className="text-gold-bright not-italic">
               shared institutional trust infrastructure.
             </span>

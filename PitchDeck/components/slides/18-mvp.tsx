@@ -7,14 +7,14 @@ import { Reveal } from "@/components/presentation/reveal";
 import { Badge } from "@/components/ui/badge";
 
 const SCOPE = [
-  "Institution identity",
-  "Signed events",
-  "Evidence hashing",
-  "Chained blocks",
-  "Multiple nodes",
-  "Evidence verification",
-  "Audit timeline",
-  "Basic anomaly detection",
+  "Identity and authority",
+  "Governed workflow events",
+  "Evidence references",
+  "Ordered histories",
+  "Independent verification",
+  "Explainable findings",
+  "Institutional integrations",
+  "Operational controls",
 ];
 
 export default function MvpSlide() {
@@ -23,7 +23,7 @@ export default function MvpSlide() {
       <Reveal>
         <div className="flex flex-wrap items-center justify-between gap-4">
           <SectionLabel index="18" title="MVP" />
-          <Badge variant="outline">in development</Badge>
+          <Badge variant="outline">planning</Badge>
         </div>
       </Reveal>
 
@@ -52,13 +52,13 @@ export default function MvpSlide() {
       <Reveal delay={760}>
         <div className="corner-frame mt-9 rounded-lg border border-gold-line bg-gold/[0.045] px-6 py-6 text-center">
           <p className="font-display text-lg leading-snug text-cream md:text-2xl">
-            One focused procurement workflow{" "}
+            Shared capabilities support multiple workflow slices{" "}
             <span className="text-gold-metal italic">
-              proves the core proposition.
+              from the outset.
             </span>
           </p>
           <p className="mt-2.5 font-mono text-[9px] tracking-[0.28em] text-smoke uppercase md:text-[10px]">
-            commitment → replication → independent verification → tamper detection
+            identity → governed events → evidence → history → verification
           </p>
         </div>
       </Reveal>

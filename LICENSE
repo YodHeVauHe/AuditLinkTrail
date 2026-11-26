@@ -11,6 +11,6 @@ Foundation Stone Algorithms or as expressly stated for a particular component.
 Public access to this repository does not place its contents in the public
 domain or grant rights to commercially exploit them.
 
-Contributions accepted into this project are governed by the license grant in
-CONTRIBUTING.md. Third-party components, where present, remain governed by their
-own licenses and notices.
+Contributions accepted and merged into this project are governed by the license
+grant in CONTRIBUTING.md, which takes effect upon merge. Third-party components,
+where present, remain governed by their own licenses and notices.

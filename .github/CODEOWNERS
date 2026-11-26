@@ -1,0 +1,3 @@
+# Code owners review all repository changes. Require at least one independent
+# code-owner approval in the repository ruleset before merging.
+* @YodHeVauHe @NzeNdiWamanyi

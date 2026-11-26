@@ -6,6 +6,14 @@ Open or identify a GitHub Issue before implementation. The issue should describe
 
 If the work is outside the issue's scope, create a follow-up issue instead of expanding the pull request silently.
 
+## People, teams, and AI-assisted contributions
+
+Contributions are welcome from individuals, teams, and workflows that use AI agents. An AI agent may help research, draft, or implement a change, but a human maintainer must open or own the pull request, review the result, and confirm that they have the authority to submit the contribution. Please describe material AI assistance when it helps reviewers understand how the change was produced.
+
+Submitting an implementation contribution does not itself grant a license. If Foundation Stone Algorithms accepts the contribution for inclusion in ALT and merges it, you grant Foundation Stone Algorithms a perpetual, worldwide, irrevocable, non-exclusive, royalty-free license to use, reproduce, modify, distribute, sublicense, and include that contribution in ALT and related proprietary products. This grant takes effect upon merge. You retain ownership of your contribution and confirm that you have the rights and authority to grant this license, including for any AI-assisted material. Do not submit material under terms that conflict with this grant.
+
+This contribution license does not grant contributors a license to Foundation Stone Algorithms' proprietary algorithms or other ALT code. The repository's [LICENSE](LICENSE) describes the project's proprietary boundary. Third-party code must retain its applicable license and notices.
+
 ## Branches and pull requests
 
 - Name a branch `issue-<number>-<slug>`.

@@ -1,0 +1,65 @@
+name: Pull request review policy
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize, ready_for_review]
+  pull_request_review:
+    types: [submitted, dismissed]
+
+permissions:
+  pull-requests: read
+
+jobs:
+  review-policy:
+    name: Require an independent approval
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check the required reviewer
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const pr = context.payload.pull_request;
+            const pullNumber = pr.number;
+            const author = pr.user.login.toLowerCase();
+            const headSha = pr.head.sha.toLowerCase();
+            const codeOwners = new Set(['yodhevauhe', 'nzendiwamanyi']);
+
+            const reviews = await github.paginate(github.rest.pulls.listReviews, {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: pullNumber,
+              per_page: 100,
+            });
+
+            // Only each reviewer's latest submitted review determines their current vote.
+            const latestByReviewer = new Map();
+            for (const review of reviews) {
+              if (review.user?.login) {
+                latestByReviewer.set(review.user.login.toLowerCase(), review);
+              }
+            }
+
+            const latestReviews = [...latestByReviewer.entries()];
+            const outstandingChanges = latestReviews
+              .filter(([, review]) => review.state === 'CHANGES_REQUESTED')
+              .map(([login]) => login);
+
+            if (outstandingChanges.length > 0) {
+              core.setFailed(`Changes are still requested by: ${outstandingChanges.join(', ')}. Resolve each request and ask for a fresh review.`);
+              return;
+            }
+
+            const approvals = latestReviews
+              .filter(([login, review]) =>
+                login !== author &&
+                codeOwners.has(login) &&
+                review.state === 'APPROVED' &&
+                review.commit_id?.toLowerCase() === headSha
+              )
+              .map(([login]) => login);
+
+            if (approvals.length === 0) {
+              core.setFailed('This PR needs a fresh approval from a code owner other than its author on the current head commit.');
+            } else {
+              core.info(`Independent approval received from ${approvals.join(', ')}.`);
+            }

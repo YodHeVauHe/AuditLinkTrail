@@ -3,6 +3,7 @@
 import {
   ArrowUpRight,
   Building2,
+  ClipboardCheck,
   FileCheck2,
   FileSpreadsheet,
   Landmark,
@@ -17,6 +18,7 @@ import { Reveal } from "@/components/presentation/reveal";
 import { Badge } from "@/components/ui/badge";
 
 const EXPANSION = [
+  { icon: ClipboardCheck, label: "Procurement" },
   { icon: FileSpreadsheet, label: "Financial reporting" },
   { icon: FileCheck2, label: "Compliance submissions" },
   { icon: ScrollText, label: "Contracts" },
@@ -40,8 +42,8 @@ export default function MarketSlide() {
         </h2>
         <p className="mt-4 max-w-2xl text-sm leading-relaxed text-fog md:text-base">
           High-value decisions, structured process, heavy documentation — the
-          workflow where evidence integrity matters most, and where one focused
-          MVP proves the whole proposition.
+          workflow as an initial market entry, within a shared platform planned
+          from the outset for multiple institutional workflows.
         </p>
       </Reveal>
 

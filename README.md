@@ -1,6 +1,21 @@
+<div align="center">
+
+<img src="brand/exports/desktop-icon-512.png" alt="AuditLinkTrail (ALT) logo" width="140" />
+
 # AuditLinkTrail (ALT)
 
 **Shared institutional audit infrastructure for trustworthy, independently verifiable histories.**
+
+Built by [Foundation Stone Algorithms](https://www.foundationstonealgorithms.shop) — intelligent systems studio.
+
+[![Website](https://img.shields.io/badge/Website-foundationstonealgorithms.shop-2b3aed?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.foundationstonealgorithms.shop)
+[![GitHub](https://img.shields.io/badge/GitHub-AuditLinkTrail-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YodHeVauHe/AuditLinkTrail)
+[![X](https://img.shields.io/badge/%40fsalgorithm-181717?style=for-the-badge&logo=x&logoColor=white)](https://x.com/fsalgorithm)
+[![License](https://img.shields.io/badge/License-Proprietary-C9A45C?style=for-the-badge)](./LICENSE)
+
+</div>
+
+---
 
 AuditLinkTrail (ALT) is being developed to help institutions and authorized counterparties record important events, preserve their order and attribution, and verify evidence integrity across workflows. ALT is designed to work alongside existing systems: operational records and source evidence can remain in the systems that already control them.
 

@@ -41,7 +41,7 @@
 - Consumes: `brand/logo/alt.svg`, the approved vector mark.
 - Produces: Square PNG assets for profile and application surfaces.
 
-- [ ] Confirm `brand/logo/alt.svg` on the issue base branch matches the source used to render the exports.
-- [ ] Inspect every PNG's format and square dimensions; confirm the X asset is exactly 400×400 and below 2 MB.
-- [ ] Review the 400×400 render for mark visibility at avatar size.
-- [ ] Stage only `brand/exports/` and this plan, then commit with an issue-referencing conventional subject and `Changes:` / `Verification:` sections.
+- [x] Confirm `brand/logo/alt.svg` on the issue base branch matches the source used to render the exports.
+- [x] Inspect every PNG's format and square dimensions; confirm the X asset is exactly 400×400 and below 2 MB.
+- [x] Review the 400×400 render for mark visibility at avatar size.
+- [x] Stage only `brand/exports/` and this plan, then commit with an issue-referencing conventional subject and `Changes:` / `Verification:` sections.
